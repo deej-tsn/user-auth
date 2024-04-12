@@ -33,7 +33,7 @@ I recommend using the Docker containers as the project requires several applicat
 
 #### Backend Set Up
 
-- Ensure Golang is installed and globally accesable from terminal with `go version`. 
+- Install [Golang](https://go.dev/doc/install) and check for global accessablity from terminal with `go version`. 
 - choose a secret key for encrytion ( your choice )
 - create .env file in /backend folder
 - write the following into .env file 
@@ -50,7 +50,7 @@ DBNAME = userauth
 
 #### Frontend Set Up
 
-- Ensure Node.js and Npm installed and globally acccesable from terminal with ` node -v ` and `npm -v `.
+- Install [Node.js and Npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and check for global accessablity from terminal with ` node -v ` and `npm -v `.
 - change directory to /frontend.
 - run `npm install`
 - run `npm run dev` 
