@@ -1,10 +1,12 @@
+CREATE DATABASE userauth;
+
 USE userauth;
 
 CREATE TABLE posts (
     `id` SERIAL NOT NULL,
     `title` character varying(50) NOT NULL,
     `body` text NOT NULL,
-    `rank` ENUM('beginner', 'intermediate', 'expert') DEFAULT (ELT(0.5 + RAND() * 3, 'beginner', 'intermediate', 'expert'));
+    `rank` ENUM('beginner', 'intermediate', 'expert') DEFAULT (ELT(0.5 + RAND() * 3, 'beginner', 'intermediate', 'expert'))
 );
 
 CREATE TABLE users (
