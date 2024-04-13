@@ -1,12 +1,12 @@
 # UserAuth
 
-### Welcome to the User Authenication Site
+### Welcome to the User Authentication Site
 
-This project will demonstrate how a modern application may build a robust user authenication system. It is intended to be both educational and thought provoking regarding the tradeoff that websites make.
+This project will demonstrate how a modern application may build a robust user authentication system. It is intended to be both educational and thought provoking regarding the tradeoff that websites make.
 
 ## Summary 
 
-Using a simple user blog type application as a basis, we will be building the user authenication. This involves creating users, loginning in users, storing passwords, generating json web tokens to give recent users auto login.
+Using a simple user blog type application as a basis, we will be building the user authentication. This involves creating users, loginning in users, storing passwords, generating json web tokens to give recent users auto login.
 
 Thus this project is very backend focused and so little consideration is given to the frontend ui and html. 
 
@@ -66,7 +66,7 @@ Below is a belief summary of each sections tasks. More detailed information can 
 
 #### Backend 
 
-Handles the majority of user authenication through an API that communicates with the frontend and database.
+Handles the majority of user authentication through an API that communicates with the frontend and database.
 
 #### Frontend 
 
