@@ -1,5 +1,11 @@
 # Backend
 
+The role of the server can be seperated into approxiately 3 overlapping functions.
+
+Route data from database to frontend server.
+
+
+
 
 ### Libraries
 This server is written in Golang using several libraries for sending and receiving HTTP requests, communicating with database, handling encryption.

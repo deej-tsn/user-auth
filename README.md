@@ -62,7 +62,7 @@ DBNAME = userauth
 
 ## Project Overview
 
-Below is a belief summary of each sections tasks. More detailed information can be found in the readme files of each specific folder.
+Below is a brief summary of each sections tasks. More detailed information can be found in the readme files of each specific folder.
 
 #### Backend 
 
