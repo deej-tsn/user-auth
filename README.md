@@ -61,3 +61,17 @@ DBNAME = userauth
 #### Still working on getting docker containers working. Sorry for inconviences.
 
 ## Project Overview
+
+Below is a belief summary of each sections tasks. More detailed information can be found in the readme files of each specific folder.
+
+#### Backend 
+
+Handles the majority of user authenication through an API that communicates with the frontend and database.
+
+#### Frontend 
+
+A webserver that provides the UI for the application, also handles getting and setting of cookies. Most of it work is sending requests to backend for data and validation.
+
+#### Database 
+
+Handles data for users and posts. Communicates solely with backend.
